@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { 
     Text, 
     View,
@@ -13,7 +13,8 @@ const ProfileScreen = ({ navigation, route }) => {
          <Text>Welcome</Text>
          <Text>My name is {route.params.name}</Text>
          <Text>I am 30 years old</Text>
-         <Text>I am iOS developer</Text>
+         <Text>iOS developer</Text>
+         <Text>Ballon pilot</Text>
          <Text style={{color: 'blue'}}
             onPress={() => Linking.openURL(url)}>
               Github 
